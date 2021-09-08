@@ -157,3 +157,140 @@
 
 // 5 falsy values: 0, '', undefined, null, NaN
 
+// console.log(Boolean(0));
+// console.log(Boolean(undefined));
+// console.log(Boolean('johanas'));
+// console.log(Boolean({})); // empty object 
+// console.log(Boolean(''));
+
+// const money = 10;
+// if (money){
+//     console.log("Don't spend it all ;)");
+// } else{
+//     console.log("You should get a job!");
+// }
+
+// let height;
+
+// if (height){
+//     console.log('Hight is defined');
+// } else{
+//     console.log('Hight id UNDEFINED!');
+// }
+
+// const age = 18;
+// if (age === 18) console.log('you just became an adult'); // === it is a strick equality operator so with automated type coercion will not work, that mean 18 and '18' will no be equal to each other only 18 and 18 or '18' and '18' will equal to each other
+
+// const newAge = 18;
+// if (newAge == '18') console.log('you just became an adult!'); // == it is a loose equality operator so it will work with the automated type coercion, so 18 and '18' will be equal with this operator
+
+
+// const collect = Number(prompt('what is your favorite number?'));// this will bring a popup window with the question and with a empty field which will collect data
+
+// console.log(typeof collect);
+
+// if (collect === 13){
+//     console.log('you ara a daredevil!');
+// } else if(collect === 666){
+//     console.log('it is a great number!');
+// } else{
+//     console.log("this is a boring number :(")
+// }
+
+// if (collect !== 23){
+//     console.log('Why not 23?');
+// }
+
+
+// boolean logic and, or & not operators
+
+// const temp = 21;
+// const temp1 = ""
+
+// if (temp === 21 && temp1 === "Hello") console.log("this is great!"); // & is a and operator
+
+// if ( temp === 21 || temp1 === 'nice') console.log('this is or'); // || is an or operator
+
+// if (!temp1) console.log('false')
+
+// const hasDriverLicense = true;
+// const hasGoodVision = true;
+
+
+// console.log(hasDriverLicense && hasGoodVision);
+// console.log(hasDriverLicense || hasGoodVision);
+// console.log(!hasDriverLicense);
+// console.log(!hasGoodVision);
+
+// if (hasGoodVision && hasDriverLicense){
+//     console.log('Sarah is able to drive');
+// } else {
+//     console.log('Someone else should drive...')
+// }
+
+// const isTired = true;
+
+// console.log(hasDriverLicense || hasGoodVision || isTired);
+
+// if (hasGoodVision && hasGoodVision && !isTired){ // ! is not operator maxes true to false and false to true!
+//     console.log('Sarah can drive');
+// } else {
+//     console.log('Sarah cant drive!')
+// }
+
+
+// const day = prompt('Please give your week day check the activities!');
+
+// switch (day){
+//     case 'monday': // day === 'monday'
+//         console.log('Plan course structure');
+//         console.log('Go to coding meetup');
+//         break;
+//     case 'tuesday':
+//         console.log('Prepare theory videos');
+//         break;
+//     case 'wednesday':
+//     case 'thursday':
+//         console.log('Write code exampels');
+//         break;
+//     case 'friday':
+//         console.log('Record videos');
+//         break;
+//     case 'saturday':
+//     case 'sunday':
+//         console.log('Enjoy your weekend!')
+//         break
+//     default:
+//         console.log('please select your weekday')
+// }
+// console.log(`
+// `)
+
+// if (day === 'monday'){
+//     console.log('Plan course structure');
+//     console.log('Go to coding meetup');
+// } else if (day === 'tuesday'){
+//     console.log('Prepare theory videos');
+// } else if (day === 'wednesday' || day === 'thursday'){
+//     console.log('Write code exampels');
+// } else if (day === 'friday'){
+//     console.log('Record videos');
+// } else if (day === 'saturday' || day === 'sunday'){
+//     console.log('Enjoy your weekend!');
+// }else {
+//     console.log('please select your weekday');
+// }
+
+
+//conditional(ternary) operator
+
+const age = 28;
+
+age >= 18 ? console.log('You can get waisted🍷!') : console.log('You cant get drunk yet😪');// ? is if and : is else
+
+
+const drink = age >= 18 ?  "wine" : 'water';
+
+console.log(drink)
+
+console.log(`He can drink only ${age >= 18 ? '🍷' : '💧'}`);
