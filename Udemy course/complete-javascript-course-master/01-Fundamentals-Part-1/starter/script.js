@@ -282,15 +282,15 @@
 // }
 
 
-//conditional(ternary) operator
+// //conditional(ternary) operator
 
-const age = 28;
+// const age = 28;
 
-age >= 18 ? console.log('You can get waisted🍷!') : console.log('You cant get drunk yet😪');// ? is if and : is else
+// age >= 18 ? console.log('You can get waisted🍷!') : console.log('You cant get drunk yet😪');// ? is if and : is else
 
 
-const drink = age >= 18 ?  "wine" : 'water';
+// const drink = age >= 18 ?  "wine" : 'water';
 
-console.log(drink)
+// console.log(drink)
 
-console.log(`He can drink only ${age >= 18 ? '🍷' : '💧'}`);
+// console.log(`He can drink only ${age >= 18 ? '🍷' : '💧'}`);
