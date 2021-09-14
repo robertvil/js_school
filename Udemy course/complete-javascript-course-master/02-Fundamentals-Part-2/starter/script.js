@@ -236,3 +236,207 @@
 // if (friends.includes('Me')) {
 //     console.log('This is you');
 // }
+
+
+// Objects
+
+// const robert = {
+//     age: 20,
+//     nationality: 'fin',
+//     hight: 122
+
+// }
+
+// console.log(robert.nationality[0]);
+
+// const jonas = {
+//     firstName: 'Jonas',
+//     lastName: 'NOway',
+//     job: 'Teacher',
+//     friends: ['Mike', 'Hussi', 'Jobs']
+// };
+
+
+// console.log(jonas);
+
+// console.log(jonas.firstName);
+// console.log(jonas['lastName']);
+
+// const nameKey = 'Name';
+
+// console.log(jonas['last' + nameKey]);
+// console.log(jonas['first' + nameKey]);
+
+// const interestedIN = (prompt('What do you what to know about Jonas, choose between firstName and lastName'));
+
+
+// if (jonas[interestedIN]) {
+//     console.log(jonas[interestedIN]);
+// } else {
+//     console.log('Wrong request! Choose between firstName and lastName');
+// }
+
+// jonas.location = 'Portugal';
+// jonas["hobby"] = 'Pork';
+
+// console.log(`${jonas.firstName} has ${jonas.friends.length} friends, and his best friend is ${jonas.friends[0]}!`);
+
+// Object methods
+
+
+// const jonas = {
+//     firstName: 'Jonas',
+//     lastName: 'NOway',
+//     job: 'Teacher',
+//     birthYear: 1999,
+//     friends: ['Mike', 'Hussi', 'Jobs'],
+//     hasDriversLicense: false,
+//     yearNow: 2037,
+
+//     // calcAge: function(birthYear) { // using a function expression we can create a method inside of the object
+//     //     return 2037 - birthYear;
+//     // }
+
+//     // calcAge: function() { // using a function expression we can create a method inside of the object
+//     //     // console.log(this);
+//     //     return this.yearNow - this.birthYear; // this variable will refer to the key inside of the object this way we don't need to set a parameters in the functions 
+//     // }
+
+
+
+//     calcAge: function() { // using a function expression we can create a method inside of the object
+//         this.age = this.yearNow - this.birthYear;
+//         return this.age;
+//     },
+
+//     jonasSummery: function() {
+//         this.calcAge(); // this will activate the calcAge method and the this.age property will be created. This way we don't need to activate the function outside the object for this method to work!
+//         return `${this.firstName} is a ${this.age} old ${this.job}, and he has ${this.hasDriversLicense ? 'a' : 'no'} driver's license!`;
+//     }
+    
+// };
+
+// // console.log(jonas.calcAge(jonas.birthYear)); // stay dry
+// // console.log(jonas['calcAge'](jonas['birthYear']));
+
+// // console.log(jonas.calcAge()); // stay dry
+// // console.log(jonas['calcAge']());
+
+// console.log(jonas.calcAge()); // Note when you store method in the this.age you will need to run function at least once, otherwise it will not work
+
+// console.log(jonas.age); // This will not work without thw above code line ==>> console.log(jonas.calcAge())
+// console.log(jonas.age); // This will not work without thw above code line ==>> console.log(jonas.calcAge())
+// console.log(jonas.age); // This will not work without thw above code line ==>> console.log(jonas.calcAge())
+
+// console.log(jonas.jonasSummery()); // Don't be stupid stupid! Remember to activate the fucking function!!!!
+
+// Loops and iterations 
+
+// console.log('rep'); // not got practice!!!
+// console.log('rep'); // not got practice!!!
+// console.log('rep'); // not got practice!!!
+// console.log('rep'); // not got practice!!!
+// console.log('rep'); // not got practice!!!
+// console.log('rep'); // not got practice!!!
+// console.log('rep'); // not got practice!!!
+// console.log('rep'); // not got practice!!!
+// console.log('rep'); // not got practice!!!
+
+
+// //for loop keeps running while condition is true
+// for(let rep = 1; rep <= 10; rep++) {
+//     console.log(`Lifting the weights repetition ${rep}🏋️‍♂️!`);
+// }
+
+// const jonas = [
+//     'Jonas',
+//     'NOway',
+//     'Teacher',
+//     333,
+//     ['Mike', 'Hussi', 'Jobs'],
+//     'Weather',
+//     true,
+//     1223
+
+// ];
+
+// const collectTypes = [];
+
+// for(let i = 0; i < jonas.length; i++) {
+//     console.log(jonas[i], typeof jonas[i]);
+//     // collectTypes.push(typeof jonas[i]);
+
+//     collectTypes[i] = typeof collectTypes[i];
+// }
+
+// console.log(collectTypes);
+
+// const years = [1991, 2007, 1969, 2020];
+// const ages = [];
+
+// for(let i = 0; i < years.length; i++) {
+//     ages.push(2037 - years[i]);
+// }
+
+// console.log(ages);
+
+// // continue and break
+// console.log('_ _ _ _ Only strings _ _ _ _')
+// for(let i = 0; i < jonas.length; i++) {
+//     if(typeof jonas[i] !== 'string') continue;
+//     console.log(jonas[i], typeof jonas[i]);
+// }
+
+// console.log('_ _ _ Break after first number _ _ _');
+// for(let i = 0; i < jonas.length; i++) {
+//     if(typeof jonas[i] === 'number') break;
+//     console.log(jonas[i], typeof jonas[i]);
+// }
+
+// const jonas = [
+//     'Jonas',
+//     'NOway',
+//     'Teacher',
+//     333,
+//     ['Mike', 'Hussi', 'Jobs'],
+//     'Weather',
+//     true,
+//     1223,
+//     'hi!'
+// ];
+
+// for(let i = 1; i < jonas.length + 1; i++){
+//     console.log(i, jonas[jonas.length - i]);
+// }
+
+// for(let i = jonas.length - 1; i  >= 0; i--) {
+//     console.log(i, jonas[i]);
+// }
+
+// for(let exercise = 1; exercise <= 3; exercise++) {
+//     console.log(`Start of the ${exercise} exercise`);
+
+//     for(let reps = 1; reps <= 5; reps++) {
+//         console.log(`  ${reps} reps in ${exercise} exercise`);
+//     }
+
+//     console.log(`End of the ${exercise} exercise `);
+// }
+
+
+// let rep = 1;
+
+// while (rep <= 10){
+//     console.log(rep);
+//     rep++;
+// }
+
+// let deice = Math.trunc(Math.random() * 6) + 1;
+
+// console.log(deice);
+
+// while (deice !== 6) {
+//     console.log(deice);
+//     deice = Math.trunc(Math.random() * 6) + 1;
+//     if (deice === 6) console.log("Loop about to end!");
+// }
