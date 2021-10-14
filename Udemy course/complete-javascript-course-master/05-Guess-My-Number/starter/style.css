@@ -14,7 +14,7 @@ html {
 body {
   font-family: 'Press Start 2P', sans-serif;
   color: #eee;
-  background-color: #222;
+  background: linear-gradient(#e66465, #9198e5);
   /* background-color: #60b347; */
 }
 

@@ -1,5 +1,3 @@
-  
-
 // let sj = 'amazing';
 // console.log(12 + 23423 + 3434 / 110);
 
@@ -15,11 +13,11 @@
 
 // console.log(javascriptIsFun);
 
-// console.log(typeof javascriptIsFun); // typeof shows the type of data 
+// console.log(typeof javascriptIsFun); // typeof shows the type of data
 
 // let number = 12.090909;
 
-// console.log(typeof number); // typeof shows the type of data 
+// console.log(typeof number); // typeof shows the type of data
 
 // let empty;
 
@@ -44,7 +42,6 @@
 
 // birthYear = 3434;
 
-
 // const now = 2037;
 // const ageJonas = now - 1991;
 // const ageSarah = now - 2018;
@@ -53,12 +50,10 @@
 
 // console.log(ageJonas * 2, ageJonas / 10, 2 ** 3);
 
-
 // const firstName = 'Jonas';
 // const lastName = 'Schmedtmann'
 
 // console.log(firstName + ' ' + lastName)
-
 
 // Assignment operators
 // let x = 10;
@@ -84,7 +79,6 @@
 
 // console.log(x, y);
 
-
 // const averageAge = (ageJonas + ageSarah) / 2;
 // console.log(ageJonas, ageSarah, averageAge);
 
@@ -98,7 +92,7 @@
 // console.log(jonas);
 
 // // template literals
-// const jonasNew = `I'm ${firstName} a 
+// const jonasNew = `I'm ${firstName} a
 // ${currentYear - birthYear} years old ${job}.`
 
 // console.log(jonasNew);
@@ -121,8 +115,7 @@
 // } else {
 //     const yearLeft = 18 - age;
 //     console.log(`You are not old enough to drive, you gave ${yearLeft} years/year before you can get driving license`);
-// }   
-
+// }
 
 // const demo = 110;
 
@@ -137,7 +130,7 @@
 //         console.log(`This is not a number ${demo}`)
 // }
 
-// // type conversion 
+// // type conversion
 // const inputYear = '1992';
 // console.log(Number(inputYear) + 18);
 
@@ -160,7 +153,7 @@
 // console.log(Boolean(0));
 // console.log(Boolean(undefined));
 // console.log(Boolean('johanas'));
-// console.log(Boolean({})); // empty object 
+// console.log(Boolean({})); // empty object
 // console.log(Boolean(''));
 
 // const money = 10;
@@ -184,7 +177,6 @@
 // const newAge = 18;
 // if (newAge == '18') console.log('you just became an adult!'); // == it is a loose equality operator so it will work with the automated type coercion, so 18 and '18' will be equal with this operator
 
-
 // const collect = Number(prompt('what is your favorite number?'));// this will bring a popup window with the question and with a empty field which will collect data
 
 // console.log(typeof collect);
@@ -201,21 +193,19 @@
 //     console.log('Why not 23?');
 // }
 
-
 // boolean logic and, or & not operators
 
 // const temp = 21;
 // const temp1 = ""
 
-// if (temp === 21 && temp1 === "Hello") console.log("this is great!"); // & is a and operator
+// if (temp === 21 && temp1 === "Hello") console.log("this is great!"); // & is a 'and' operator
 
-// if ( temp === 21 || temp1 === 'nice') console.log('this is or'); // || is an or operator
+// if ( temp === 21 || temp1 === 'nice') console.log('this is or'); // || is an 'or' operator
 
 // if (!temp1) console.log('false')
 
 // const hasDriverLicense = true;
 // const hasGoodVision = true;
-
 
 // console.log(hasDriverLicense && hasGoodVision);
 // console.log(hasDriverLicense || hasGoodVision);
@@ -237,7 +227,6 @@
 // } else {
 //     console.log('Sarah cant drive!')
 // }
-
 
 // const day = prompt('Please give your week day check the activities!');
 
@@ -281,13 +270,11 @@
 //     console.log('please select your weekday');
 // }
 
-
 // //conditional(ternary) operator
 
 // const age = 28;
 
 // age >= 18 ? console.log('You can get waisted🍷!') : console.log('You cant get drunk yet😪');// ? is if and : is else
-
 
 // const drink = age >= 18 ?  "wine" : 'water';
 
